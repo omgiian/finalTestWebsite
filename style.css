@@ -1,0 +1,363 @@
+@font-face { font-family: 'SuisseIntl'; src: url('SuisseIntl-Regular.ttf'); }
+
+body {
+    background-color: #f7f6f1;
+    color: #f74c25;
+    font-family: 'SuisseIntl';
+
+}
+
+a {
+  color: #f74c25;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #f7f6f1;
+    text-align: center;
+    background:url("istockphoto-1046528434-170667a.jpg") top center repeat;
+    background-size:contain;
+    height: 600px;
+    position:relative;
+  }
+  
+  #navbar {
+    overflow: hidden;
+    color: #f74c25;
+    position:fixed;
+    top:0;
+    width:99%;
+    padding-top:10px;
+    padding-right:10px;
+    padding-block:10px;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f74c25;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #navbar a:hover {
+    color: white;
+  }
+  
+  #navbar a.active {
+    color: #f74c25;
+  }
+
+  #navbar button {
+    text-align: right;
+    background-color: #f7f6f1; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+    border-radius:50px;
+    transition-duration:0.4s;
+    border: 2px solid #f74c25;
+    padding:0%;
+  }
+
+  #navbar button:hover {
+    background-color: #f74c25;
+    color: white;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* SLIDESHOW */
+
+  .container {
+    position: relative;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  /* FOOTER */
+
+  .div {
+    display: block;
+  }
+
+  .justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.footer-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding:10px;
+}
+
+  .footer-clean {
+    padding:50px;
+    background-color:#f74c25;
+    color:#f7f6f1;
+    text-align:left;
+  }
+  
+  .footer-clean h3 {
+    margin-top:0;
+    margin-bottom:8px;
+    font-weight:bold;
+    font-size:16px;
+    padding-left:10px;
+  }
+  
+  .footer-clean ul {
+    padding:10px;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-clean ul a {
+    padding-right:10px;
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-clean ul a:hover {
+    opacity:1;
+  }
+
+  *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.col-sm-4 {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+/* SLIDING TEXT */
+
+.marquee {
+  font-family: '"ITC Garamond W01 Book Narrow",Garamond,serif';
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  color: #f74c25;
+  padding-top: 30px;
+}
+
+.marquee a:link {
+  color:#f74c25;
+  text-decoration: none;
+}
+
+.marquee a:visited {
+  color:#f74c25;
+  text-decoration: none;
+}
+
+.marquee a:hover {
+  color:#f74c25;
+  text-decoration: none;
+}
+
+.marquee a:active {
+  color:#f74c25;
+  text-decoration: none;
+  font-style: bold;
+}
+
+.marquee p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 80px;
+  text-align: center;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: scroll-left 2s linear infinite;
+  -webkit-animation: scroll-left 2s linear infinite;
+  animation: scroll-left 20s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scroll-left {
+  0% {
+      -webkit-transform: translateX(100%);
+  }
+  100% {
+      -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+  }
+  100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+  }
+}
+
+/* BODY */
+
+.divcolumnsGallery {
+  font-family: '"ITC Garamond W01 Book Narrow",Garamond,serif';
+  column-count: 2;
+  column-fill:balance;
+  padding: 20px;
+  text-align: center;
+}
+
+.divcolumnsGallery img {
+    border-radius: 50%;
+    height: 500px;
+    width: 400px;
+}
+
+.button {
+  text-align: center;
+    background-color: #f7f6f1; 
+    border: none;
+    color: #f74c25;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius:50px;
+    transition-duration:0.4s;
+    border: 2px solid #f74c25;
+    font-family: 'SuisseIntl';
+    padding: 15px;
+}
+
+.button a {
+  float: left;
+  display: block;
+  color: #f74c25;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
