@@ -16,7 +16,7 @@ a {
 .header {
     background-color: #f7f6f1;
     text-align: center;
-    background:url("istockphoto-1046528434-170667a.jpg") top center repeat;
+    background:url("beefarmer.jpg") top center repeat;
     background-size:contain;
     height: 600px;
     position:relative;
@@ -360,4 +360,74 @@ a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid;
+  background-color: #EFEDE7;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+table a {
+  text-decoration: none;
+}
+
+table h1 {
+  font-size: 40px;
+  color: #f74c25;
+}
+
+table h3 {
+  font-size: 30px;
+  color: #f74c25;
+}
+
+table h4 {
+  font-size: 20px;
+  color: #f74c25;
+}
+
+table h5 {
+  font-size: 15px;
+  color: #f74c25;
+  font-family: '"ITC Garamond W01 Book Narrow",Garamond,serif';
+}
+
+th, td {
+  padding: 15px;
+}
+
+/* ITEM COUNT BUTTON */
+
+.search_categories{
+  font-size: 13px;
+  padding: 10px 8px 10px 14px;
+  background: #EFEDE7;
+  border: 1px solid #f74c25;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+}
+
+.search_categories .select{
+  width: 125%;
+  background:url('down.png') no-repeat;
+  background-position:80% center;
+}
+
+.search_categories .select select{
+  background: transparent;
+  line-height: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  font-size: 1em;
 }
